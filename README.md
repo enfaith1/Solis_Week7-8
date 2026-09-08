@@ -111,6 +111,7 @@ https://www.kaggle.com/datasets/grassknoted/asl-alphabet
 
 The dataset contains labeled images representing American Sign Language (ASL) hand signs. This project uses the dataset as the basis for training the CNN image classification model and limits the data to a maximum of **1,000 images per class**.
 
+>**Images used (classes):** https://drive.google.com/drive/folders/1LsqcJrQxuocpDtfUb2wN4wHnMA0qptjz?usp=sharing
 
 The recorded training run contained:
 
