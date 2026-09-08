@@ -1,0 +1,56 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# ===== Virtual environment =====
+venv/
+env/
+.venv/
+ENV/
+
+# ===== Environment variables / secrets =====
+# Never commit API keys, secret keys, DB credentials, etc.
+.env
+.env.*
+*.env
+config.py
+secrets.json
+
+# ===== Flask =====
+instance/
+.webassets-cache
+flask_session/
+
+# ===== Jupyter / notebooks =====
+.ipynb_checkpoints/
+
+# ===== Logs =====
+*.log
+logs/
+
+# ===== OS junk =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== Editor / IDE =====
+.vscode/
+.idea/
+*.swp
+
+# ===== Large ML model / weights files =====
+# GitHub blocks files over 100MB (and warns over 50MB), so trained models often
+# don't belong in a normal git repo. Uncomment the lines below if your model file
+# is large or you'd rather distribute it separately (e.g. Google Drive, Git LFS,
+# Hugging Face Hub) instead of committing it directly.
+*.h5
+# *.keras
+# *.pkl
+# *.pt
+# *.pth
+
+# ===== Uploaded / generated user data (if your app writes files at runtime) =====
+uploads/
+*.tmp

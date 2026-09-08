@@ -1,0 +1,8 @@
+flask
+numpy==1.26.4
+protobuf==4.25.5
+jax==0.4.30
+jaxlib==0.4.30
+opencv-contrib-python==4.10.0.84
+mediapipe==0.10.14
+tensorflow==2.17.0
